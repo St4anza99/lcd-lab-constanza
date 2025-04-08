@@ -1,4 +1,5 @@
 #include <LiquidCrystal.h>  // Include the LiquidCrystal library for the LCD
+
 // Define the pin connected to the pushbutton
 const int buttonPin = 3;
 
@@ -16,7 +17,7 @@ void setup() {
 
 void loop() {
   lcd.clear();                 // Clear the LCD screen
-  lcd.print("Press to Start"); // Display instruction to the player
+  lcd.print("RAHHHHHH"); // Display instruction to the player
 
   // Just waiting here until the player presses the button (HIGH to LOW) 
   while (digitalRead(buttonPin) == HIGH) {} // DONT WORRY HOW THIS WORKS NOW
