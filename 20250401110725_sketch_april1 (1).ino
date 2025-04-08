@@ -1,5 +1,4 @@
 #include <LiquidCrystal.h>  // Include the LiquidCrystal library for the LCD
-
 // Define the pin connected to the pushbutton
 const int buttonPin = 3;
 
